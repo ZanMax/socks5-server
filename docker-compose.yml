@@ -1,0 +1,9 @@
+services:
+  socks5:
+    build: .
+    container_name: socks5-server
+    ports:
+      - "1080:1080"
+    volumes:
+      - ./config.json:/root/config.json
+    restart: unless-stopped

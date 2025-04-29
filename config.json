@@ -1,0 +1,6 @@
+{
+    "port": 1080,
+    "username": "user",
+    "password": "password",
+    "address": "0.0.0.0"
+}
